@@ -5,7 +5,7 @@
 	"author": "Tan Dang <tandm160797@gmail.com>",
 	"license": "MIT",
 	"scripts": {
-		"dev": "nodemon -q -x 'node ./src/utils/clear.js && node -r dotenv/config ./src/app.js dotenv_config_path=./.env'",
+		"dev": "nodemon -q -x 'node ./src/utils/clear-console.js && node -r dotenv/config ./src/app.js dotenv_config_path=./.env'",
 		"build": "babel ./src -d ./dist",
 		"start": "node .",
 		"node-sass": "node-sass -w --output-style compressed ./public/assets/scss -o ./public/assets/css"
